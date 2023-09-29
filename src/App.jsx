@@ -1,4 +1,4 @@
-import { CustomerReviews, Footer, Hero, PopularProducts, Services, SepcialOffer, Subscribe, SuperQuality  } from "./sections";
+import { CustomerReviews, Footer, Hero, PopularProducts, Services, SpecialOffer, Subscribe, SuperQuality  } from "./sections";
 
 const App = () => (
 
@@ -9,7 +9,6 @@ const App = () => (
     {/* <Nav /> */}
     <section className="xl:padding-1 wide:padding-r padding-b">
       <Hero />
-      console.log("heeel")
     </section>
     <section className="padding">
       <PopularProducts />
@@ -21,7 +20,7 @@ const App = () => (
       <Services />
     </section>
     <section className="padding">
-      <SepcialOffer />
+      <SpecialOffer />
     </section>
     <section className="bg-pale-blue padding">
       <CustomerReviews />
