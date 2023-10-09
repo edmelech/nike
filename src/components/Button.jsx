@@ -5,7 +5,7 @@ const Button = ({ label, iconURL}) => {
 
       <img 
         src={iconURL}
-        ALT="arrow right icon"
+        alt="arrow right icon"
         className="ml-2 rounded-full w-5 h-5"
       
       />
@@ -13,4 +13,4 @@ const Button = ({ label, iconURL}) => {
   )
 }
 
-export default Button
+export default Button;
