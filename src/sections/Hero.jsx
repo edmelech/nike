@@ -1,3 +1,6 @@
+import Button from "../components/Button";
+import arrowRight from "../assets/icons";
+
 const Hero = () => {
   return (
     <section
@@ -13,6 +16,7 @@ const Hero = () => {
           Shoes
         </h1>
         <p>Discover stylish Nike arrivals, qaulity comfor and innovcation for your ative life.</p>
+        <Button label="Shop now" iconURL={arrowRight} />
       </div>
 
     </section>
